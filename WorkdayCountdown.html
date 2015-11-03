@@ -8,9 +8,9 @@
 			// NOTE: CHANGE THESE VALUES WHEN NEEDED
 			
 			// The target date of the countdown. Remember, months start with 0.
-			var targetDate = new Date(2015, 11, 2, 12, 41); // year, month (-1), day, hour, minutes
+			var targetDate = new Date(2015, 10, 4, 12, 41); // year, month (-1), day, hour, minutes
 			
-			// The number of public holidays during the period. These are subtracted from the remaining days.
+			// The number of public holidays during the period. Holidays during weekends must not be added here. The number of public holidays are subtracted from the countdown.
 			var publicHolidays = 0;
 			
 			// The image to be shown when the countdown completes.
@@ -50,9 +50,13 @@
 				}
 			}
 			
+			// Subtract public holidays
+			var millisecondsPerDay = 24 * 60 * 60 * 1000;
+			var adjustedTarget = new Date(targetDate.getTime() - (publicHolidays * millisecondsPerDay));						
+						
 			// Calculate the remaining workdays
-			var timeToTarget = countdown(null, targetDate, countdown.DAYS | countdown.HOURS | countdown.MINUTES);
-			timeToTarget.days = timeToTarget.days - daysOfWork - publicHolidays;
+			var timeToTarget = countdown(null, adjustedTarget, countdown.DAYS | countdown.HOURS | countdown.MINUTES);
+			timeToTarget.days = timeToTarget.days - daysOfWork;
 		</script>
 		<style type="text/css">
 			body {
