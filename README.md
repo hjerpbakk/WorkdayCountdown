@@ -40,7 +40,7 @@
 </div>
 
 ### title
-`title` is the title of this page if shown in a regular browser.
+`title` is title of the countdown, shown as the first header and as the title of this page if shown in a regular browser.
 
 ## Hosting
 
