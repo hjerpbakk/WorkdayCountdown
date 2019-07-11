@@ -9,7 +9,7 @@
 3. Add a new `Do-It-Yourself` panel to your status board and choose this file from Dropbox.
 
 <div style="width:100%; text-align:center">
-	<img src="http://hjerpbakk.com/img/workday-countdown-a-status-board-panel/2Setup.png" alt="star" width="686.0" height="614.5">
+	<img src="https://hjerpbakk.com/img/workday-countdown-a-status-board-panel/2Setup.png" alt="star" width="686.0" height="614.5">
 </div>
 
 ## Usage
@@ -20,15 +20,15 @@
 `targetDate` is the date to which the panel countdowns. Change this to your own target date. This is a normal JavaScript date, but minutes is the smallest unit shown by the panel.
 
 <div style="width:100%; text-align:center">
-	<img src="http://hjerpbakk.com/img/workday-countdown-a-status-board-panel/3Days-remaining.png" alt="star" width="350.0" height="350.0">
+	<img src="https://hjerpbakk.com/img/workday-countdown-a-status-board-panel/3Days-remaining.png" alt="star" width="350.0" height="350.0">
 </div>
 
 <div style="width:100%; text-align:center">
-	<img src="http://hjerpbakk.com/img/workday-countdown-a-status-board-panel/5Hours-remaining.png" alt="star" width="350.0" height="350.0">
+	<img src="https://hjerpbakk.com/img/workday-countdown-a-status-board-panel/5Hours-remaining.png" alt="star" width="350.0" height="350.0">
 </div>
 
 <div style="width:100%; text-align:center">
-	<img src="http://hjerpbakk.com/img/workday-countdown-a-status-board-panel/1Minutes-remaining.png" alt="star" width="350.0" height="350.0">
+	<img src="https://hjerpbakk.com/img/workday-countdown-a-status-board-panel/1Minutes-remaining.png" alt="star" width="350.0" height="350.0">
 </div>
 
 ### publicHolidays
@@ -38,7 +38,7 @@
 `countdownCompleted` is the URL to the image to be shown when the countdown completes. It defaults to:
 
 <div style="width:100%; text-align:center">
-	<img src="http://hjerpbakk.com//img/workday-countdown-a-status-board-panel/0Countdown-completed.jpg" alt="star" width="150.0" height="150.0">
+	<img src="https://hjerpbakk.com//img/workday-countdown-a-status-board-panel/0Countdown-completed.jpg" alt="star" width="150.0" height="150.0">
 </div>
 
 ### title
@@ -67,7 +67,7 @@ On line 4 there is information about how Workday Countdown should behave when pl
 If you want a different look and feel, you can change the CSS starting on line 61. The default CSS is created to make it look as similar as possible to Panic’s own Countdown panel.
 
 <div style="width:100%; text-align:center">
-	<img src="http://hjerpbakk.com/img/workday-countdown-a-status-board-panel/4Side-by-side.png" alt="star" width="600.0" height="350.0">
+	<img src="https://hjerpbakk.com/img/workday-countdown-a-status-board-panel/4Side-by-side.png" alt="star" width="600.0" height="350.0">
 </div>
 
 
