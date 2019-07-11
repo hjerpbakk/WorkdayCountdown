@@ -1,8 +1,6 @@
 # Workday Countdown - a Status Board panel
 **Workday Countdown** is a countdown panel for [Panic's Status Board 2 application for iOS](https://itunes.apple.com/us/app/status-board/id449955536?mt=8&at=11l5UV). Different from the stock Countdown panel, Workday Countdown filters out weekends and public holidays. This provides a more realistic countdown in a work setting where people are not expected to come in on weekends.
 
-[![Dependency Status](https://dependencyci.com/github/Sankra/WorkdayCountdown/badge)](https://dependencyci.com/github/Sankra/WorkdayCountdown)
-
 ## tl;dr
 1. Change the `targetDate` variable on line 11.
 2. Put `WorkdayCountdown.html` in your Dropbox.
